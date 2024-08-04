@@ -8,10 +8,10 @@ admin = name;
 alert(admin); 
 
 // 2
-let planetName = "Earth";
-let visitorName = "Alice";
+const planetName = "Earth";
+const visitorName = "Alice";
 
 // 3
-let result = "10" + 10;
+const result = "10" + 10;
 console.log(result);
 console.log(typeof result);
