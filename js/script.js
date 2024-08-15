@@ -1,9 +1,5 @@
 'use strict';
-
-const numberFirst = parseFloat(prompt("Ведіть перше число"));
-const numberSecond = parseFloat(prompt("Ведіть друге число"));
-const numberThird = parseFloat(prompt("Ведіть третє число"));
-
-const result = (numberFirst + numberSecond + numberThird) / 3;
+const hours = parseFloat(prompt("Ведіть кількість годин"));
+const result = hours * 60;
 alert(result);
 
